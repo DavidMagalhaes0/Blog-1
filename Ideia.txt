@@ -1,0 +1,1 @@
+Criar um botão grande, que quando preenchido com meu texto e imagem, substituira o botão com a imagem escolhida por mim(usuario) como 'thumb' para o conteúdo do blog, clicando no conteúdo, abrira a janela com toda a informação escrita por mim.
