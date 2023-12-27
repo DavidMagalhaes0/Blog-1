@@ -51,10 +51,6 @@ body{
     padding: 162px;
 }
 
-.container-menu h1:hover {
-    
-}
-
 .content {
     display: grid;
     grid-template-columns: 542px 542px;
