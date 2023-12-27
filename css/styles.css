@@ -6,36 +6,168 @@
 
 body{
     background: #0E0E18;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-menu {
+    height: 400px;
+    width: 100%;
+    background-image: url('/arquivos/fundo-header.png');
+    display: flex;
 }
 
 .logo {
     max-width: 100%;
     display: block;
     height: 89px;
+    padding-left: 84px;
+    padding-top: 12px;
+    cursor: pointer;
 }
 
-.menu {
-    display: flex;    
-}
-
-.fundo-menu {
-    width: 100%;
-    height: 400px;
-    display: block;
-    position: absolute;
-    top: 0;
-}
-
-.login {
+.login-button {
+    background-color: #fff;
     padding: 12px 24px;
     border-radius: 24px;
+    color: #000;
     font-size: 24px;
-    
-    
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    top: 32px;
+    right: 88px;
 }
 
-h1{
+.login-button:hover {
+    background-color: #E8E8F2;
+    transition: 0.3s;
+}
+
+.container-menu h1 {
     font-family: 'Rubik', sans-serif;
     color: #fff;
     font-weight: lighter;
+    font-size: 64px;
+    padding: 162px;
 }
+
+.container-menu h1:hover {
+    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 542px 542px;
+    gap: 20px;
+    justify-content: space-around;
+    place-content: center;
+}
+
+.card-1 {
+    background-color: transparent; 
+    width: 542px;
+    height: 549px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.card-1 .mediacard {
+    background-image: url('/arquivos/Group\ 6.png');
+    background-size: cover;
+    background-position: center;
+    width: 542px;
+    height: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card-1:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.card-2 {
+    background-color: transparent; 
+    width: 542px;
+    height: 549px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.card-2 .mediacard {
+    background-image: url('/arquivos/Group\ 6.png');
+    background-size: cover;
+    background-position: center;
+    width: 542px;
+    height: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card-2:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.card-3 {
+    background-color: transparent; 
+    width: 542px;
+    height: 549px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.card-3 .mediacard {
+    background-image: url('/arquivos/Group\ 6.png');
+    background-size: cover;
+    background-position: center;
+    width: 542px;
+    height: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card-3:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.card-4 {
+    background-color: transparent; 
+    width: 542px;
+    height: 549px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+.card-4 .mediacard {
+    background-image: url('/arquivos/Group\ 6.png');
+    background-size: cover;
+    background-position: center;
+    width: 542px;
+    height: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card-4:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.subtitulo {
+    color: #E8E8F2;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.vermais {
+    color: #AE9510;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid #AE9510;
+    cursor: pointer;
+}
+
