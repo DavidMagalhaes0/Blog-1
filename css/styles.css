@@ -7,6 +7,8 @@
 body{
     background: #0E0E18;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .container-menu {
@@ -14,28 +16,35 @@ body{
     width: 100%;
     background-image: url('/arquivos/fundo-header.png');
     display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .logo {
     max-width: 100%;
     display: block;
     height: 89px;
-    padding-left: 84px;
     padding-top: 12px;
     cursor: pointer;
+    padding-left: 80px;
+    position: absolute;
+    left: 0;
+
 }
 
 .login-button {
     background-color: #fff;
-    padding: 12px 24px;
     border-radius: 24px;
     color: #000;
     font-size: 24px;
     text-decoration: none;
     font-weight: 500;
+    display: flex;
+    padding: 12px 24px;
     position: absolute;
-    top: 32px;
-    right: 88px;
+    right: 80px;
+    top: 32px
 }
 
 .login-button:hover {
@@ -43,17 +52,42 @@ body{
     transition: 0.3s;
 }
 
-.container-menu h1 {
+h1 {
     font-family: 'Rubik', sans-serif;
     color: #fff;
     font-weight: lighter;
     font-size: 64px;
-    padding: 162px;
+    max-width: 500px;
+    /* position: absolute;
+    top: 142px;
+    left: 400px; */
+    display: flex;
+    align-items: center;
+    box-shadow: .6em 0 0 #2a2a4e;
+    margin: 10rem 1rem;
+    width: 23ch;
+    overflow: hidden;
+    color: #FFF;
+     white-space: nowrap;
+    animation: caret .5s step-end infinite alternate,
+             type 5s steps(30, end) infinite;
 }
+
+@keyframes type {
+    10% {
+      width: 0;
+    }
+  
+  }
+  @keyframes caret { 
+    50% { 
+      box-shadow: .6em 0 0 transparent;
+    }
+  }
 
 .content {
     display: grid;
-    grid-template-columns: 542px 542px;
+    grid-template-columns: 580px 580px;
     gap: 20px;
     justify-content: space-around;
     place-content: center;
@@ -71,8 +105,8 @@ body{
     background-image: url('/arquivos/Group\ 6.png');
     background-size: cover;
     background-position: center;
-    width: 542px;
-    height: 400px;
+    width: 580px;
+    height: 360px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -94,8 +128,8 @@ body{
     background-image: url('/arquivos/Group\ 6.png');
     background-size: cover;
     background-position: center;
-    width: 542px;
-    height: 400px;
+    width: 580px;
+    height: 360px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -117,8 +151,8 @@ body{
     background-image: url('/arquivos/Group\ 6.png');
     background-size: cover;
     background-position: center;
-    width: 542px;
-    height: 400px;
+    width: 580px;
+    height: 360px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -140,8 +174,8 @@ body{
     background-image: url('/arquivos/Group\ 6.png');
     background-size: cover;
     background-position: center;
-    width: 542px;
-    height: 400px;
+    width: 580px;
+    height: 360px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -153,17 +187,21 @@ body{
 
 .subtitulo {
     color: #E8E8F2;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
+    display: flex;
     padding-top: 16px;
+    padding-left: 0px;
 }
 
 .vermais {
     color: #AE9510;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     border-bottom: 2px solid #AE9510;
     cursor: pointer;
+    display: inline-flex;
+    padding-top: 8px;
 }
 
