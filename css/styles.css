@@ -27,10 +27,10 @@ body{
     height: 89px;
     padding-top: 12px;
     cursor: pointer;
-    padding-left: 80px;
+    padding-left: 84px;
     position: absolute;
     left: 0;
-
+    
 }
 
 .login-button {
@@ -43,12 +43,12 @@ body{
     display: flex;
     padding: 12px 24px;
     position: absolute;
-    right: 80px;
+    right: 84px;
     top: 32px
 }
 
 .login-button:hover {
-    background-color: #E8E8F2;
+    background-color: #bbbbc9;
     transition: 0.3s;
 }
 
@@ -58,9 +58,6 @@ h1 {
     font-weight: lighter;
     font-size: 64px;
     max-width: 500px;
-    /* position: absolute;
-    top: 142px;
-    left: 400px; */
     display: flex;
     align-items: center;
     box-shadow: .6em 0 0 #2a2a4e;
@@ -89,7 +86,7 @@ h1 {
     display: grid;
     grid-template-columns: 580px 580px;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     place-content: center;
 }
 
@@ -205,3 +202,113 @@ h1 {
     padding-top: 8px;
 }
 
+footer {
+    background-color: #2a2a4e;
+    padding: 40px;
+}
+
+.redessociais a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.redessociais a:hover{
+    color: #0E0E18;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 1400px) {
+    h1{
+        font-size: 54px;
+        max-width: 425px;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 540px 540px;
+        justify-content: space-between;
+        place-content: center;
+    }
+
+    .card-1 {
+        width: 540px;
+        height: 529px;
+    }
+    
+    .card-1 .mediacard {
+        width: 540px;
+        height: 320px;
+    }
+
+    .card-2 {
+        width: 540px;
+        height: 529px;
+    }
+    
+    .card-2 .mediacard {
+        width: 540px;
+        height: 320px;
+    }
+
+    .card-3 {
+        width: 540px;
+        height: 529px;
+    }
+    
+    .card-3 .mediacard {
+        width: 540px;
+        height: 320px;
+    }
+
+    .card-4 {
+        width: 540px;
+        height: 529px;
+    }
+    
+    .card-4 .mediacard {
+        width: 540px;
+        height: 320px;
+    }
+    
+    .logo {
+        height: 69px;
+        margin-left: 40px;
+        margin-top: 12px;
+    }
+    
+    .login-button {
+        font-size: 18px;
+        margin-right: 40px;
+    }
+
+    h1 {
+        font-size: 54px;
+        max-width: 425px;
+        display: flex;
+        align-items: center;
+        box-shadow: .4em 0 0 #2a2a4e;
+     
+    }
+
+    .container-menu {
+        height: 300px;
+        display: flex;
+        align-content: center;
+    
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+    
+    .vermais {
+        font-size: 16px;
+    }
+
+
+}
